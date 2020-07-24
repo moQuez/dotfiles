@@ -35,7 +35,7 @@ alias tmuxconfig="nvim ~/.tmux.conf"
 alias vim="nvim"
 alias vimconfig="nvim ~/.config/nvim/init.vim"
 alias vimplugins="nvim ~/.config/nvim/vim-plug/plugins.vim"
-alias dot="git --git-dir=$HOME/Development/dotfiles/ --work-tree=$HOME"
+alias dotfiles="git --git-dir=$HOME/Development/dotfiles/ --work-tree=$HOME"
 alias thyme="$HOME/Tools/thyme-darwin64-0.1.0"
 
 export NVM_DIR="$HOME/.nvm"
