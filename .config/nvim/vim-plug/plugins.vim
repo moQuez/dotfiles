@@ -17,6 +17,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'HerringtonDarkholme/yats.vim'
 
   " Programming tools
+  " - Tools
+  Plug 'voldikss/vim-floaterm'
+
   " - Code editing
   Plug 'tpope/vim-commentary'
   Plug 'scrooloose/nerdtree'
