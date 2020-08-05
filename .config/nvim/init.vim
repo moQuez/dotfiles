@@ -16,13 +16,14 @@ set splitbelow
 " Plugins
 source $HOME/.config/nvim/vim-plug/plugins.vim
 
+" Remapping
+source $HOME/.config/nvim/remaps.vim
+
 " Pugins config
+source $HOME/.config/nvim/plug-config/which-key.vim
 source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/coc-jest.vim
 source $HOME/.config/nvim/plug-config/nerdtree.vim
-
-" Remapping
-source $HOME/.config/nvim/remaps.vim
 
 " Eye Candy
 set termguicolors

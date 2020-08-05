@@ -33,6 +33,7 @@ fi
 alias zshconfig="nvim ~/.zshrc"
 alias tmuxconfig="nvim ~/.tmux.conf"
 alias vim="nvim"
+alias wiki="nvim -c :VimwikiIndex"
 alias vimconfig="nvim ~/.config/nvim/init.vim"
 alias vimplugins="nvim ~/.config/nvim/vim-plug/plugins.vim"
 alias dotfiles="git --git-dir=$HOME/Development/dotfiles/ --work-tree=$HOME"

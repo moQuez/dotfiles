@@ -19,6 +19,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Programming tools
   " - Tools
   Plug 'voldikss/vim-floaterm'
+  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+  Plug 'junegunn/fzf.vim'
 
   " - Code editing
   Plug 'tpope/vim-commentary'
@@ -32,6 +34,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   let g:coc_global_extensions = [
   \ 'coc-tsserver'
   \ ]
+
+  " - QoL
+  Plug 'liuchengxu/vim-which-key'
 
   " if isdirectory('./node_modules') && isdirectory('./node_modules/prettier')
   "   let g:coc_global_extensions += ['coc-prettier']

@@ -1,4 +1,4 @@
-let mapleader="'"
+let g:mapleader="'"
 
 " Editing
 inoremap jk <ESC>
@@ -42,4 +42,8 @@ nnoremap <leader>js :call CocAction('runCommand', 'jest.singleTest')<CR>
 
 " Run jest for current project
 nnoremap <leader>jp :Jest<CR>
+
+" Which Key
+noremap <silent> <leader> :WhichKey "'"<CR>
+vnoremap <silent> <leader> :silent <c-u> :silent WhichKeyVisual "'"<CR>
 
