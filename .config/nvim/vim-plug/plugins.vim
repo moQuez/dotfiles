@@ -26,8 +26,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'tpope/vim-commentary'
   Plug 'scrooloose/nerdtree'
   Plug 'jiangmiao/auto-pairs'
+  Plug 'mhinz/vim-signify'
   Plug 'tpope/vim-fugitive'
   Plug 'tpope/vim-rhubarb'
+  Plug 'junegunn/gv.vim'
 
   " - Conquer of Completion
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
