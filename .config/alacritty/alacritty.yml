@@ -1,0 +1,9 @@
+import:
+  - ~/.config/alacritty/fonts.yml
+  - ~/.config/alacritty/dracula.yml
+
+scrolling:
+  history: 0
+
+selection: 
+  save_to_clipboard: true
