@@ -21,6 +21,7 @@ source $HOME/.config/nvim/plugins/init.vim
 
 " Pugins config
 source $HOME/.config/nvim/plugins/config/lspconfig.vim
+source $HOME/.config/nvim/plugins/config/nvim-tree.vim
 luafile $HOME/.config/nvim/lua/lsp/javascript-ls.lua
 luafile $HOME/.config/nvim/lua/lsp/vim-ls.lua
 luafile $HOME/.config/nvim/lua/treesitter.lua
