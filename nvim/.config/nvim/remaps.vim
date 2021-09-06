@@ -1,12 +1,12 @@
 " Change the leader key to single quote
-let g:mapleader="'"
+let g:mapleader="\<Space>"
 
 " Editing
 inoremap jk <ESC>
 inoremap <ESC> <NOP>
 
 " Handy tools
-nnoremap <leader>s :w<CR>
+nnoremap <leader>w :w<CR>
 nnoremap <leader>q :q<CR>
 
 " Movement

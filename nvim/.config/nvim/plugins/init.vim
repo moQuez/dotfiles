@@ -27,4 +27,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'kyazdani42/nvim-web-devicons' 
   Plug 'kyazdani42/nvim-tree.lua'
 
+  " Telescope
+  Plug 'nvim-lua/plenary.nvim'
+  Plug 'nvim-telescope/telescope.nvim'
+
 call plug#end()
