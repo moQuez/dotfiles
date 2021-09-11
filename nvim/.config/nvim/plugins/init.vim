@@ -31,4 +31,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'nvim-lua/plenary.nvim'
   Plug 'nvim-telescope/telescope.nvim'
 
+  " Git related
+  Plug 'lewis6991/gitsigns.nvim'
+  Plug 'tpope/vim-fugitive'
+
 call plug#end()

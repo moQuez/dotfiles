@@ -15,16 +15,20 @@ set splitbelow
 
 " Remapping
 source $HOME/.config/nvim/remaps.vim
+source $HOME/.config/nvim/plugins/lspconfig/remaps.vim
+source $HOME/.config/nvim/plugins/telescope/remaps.vim
 
 " Plugins
 source $HOME/.config/nvim/plugins/init.vim
 
 " Pugins config
-source $HOME/.config/nvim/plugins/config/lspconfig.vim
-source $HOME/.config/nvim/plugins/config/nvim-tree.vim
+source $HOME/.config/nvim/plugins/nvim-tree/config.vim
+
+" Lua based config
 luafile $HOME/.config/nvim/lua/lsp/javascript-ls.lua
 luafile $HOME/.config/nvim/lua/lsp/vim-ls.lua
-luafile $HOME/.config/nvim/lua/treesitter.lua
+luafile $HOME/.config/nvim/lua/_gitsigns/config.lua
+luafile $HOME/.config/nvim/lua/treesitter/config.lua
 
 " Eye Candy
 syntax enable
