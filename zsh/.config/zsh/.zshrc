@@ -30,3 +30,7 @@ source $ZDOTDIR/completion.zsh
 
 # Prompt
 source $ZDOTDIR/prompt.zsh
+
+# This loads nvm
+[ -s "$NVM_DIR/nvm.sh" ] && source "$NVM_DIR/nvm.sh" 
+

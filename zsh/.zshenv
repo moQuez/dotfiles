@@ -23,11 +23,9 @@ SAVEHIST=100000
 export VIMCONFIG="$XDG_CONFIG_HOME/nvim"
 
 #node
-export N_PREFIX="$HOME/Tools/n"
+export NVM_DIR="$HOME/.nvm"
 
 #########################
 # PATH
 #########################
 
-#n - node
-[[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"
