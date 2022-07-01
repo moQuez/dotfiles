@@ -1,0 +1,6 @@
+brew "stow"
+brew "tmux"
+tap "homebrew/cask-fonts"
+cask "font-ubuntu-mono-nerd-font"
+cask "alacritty"
+brew "neovim"
