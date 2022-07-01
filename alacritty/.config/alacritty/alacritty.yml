@@ -11,10 +11,11 @@ scrolling:
 selection: 
   save_to_clipboard: true
 
-# Start with tmux, always attaching to main first
+#Start with tmux, always attaching to main first
 shell:
-  program: /bin/zsh
+  program: /opt/homebrew/bin/tmux
   args:
-    - --login
-    - -c
-    - "tmux new-session -A -s main"
+    - new-session
+    - -A
+    - -s
+    - main
