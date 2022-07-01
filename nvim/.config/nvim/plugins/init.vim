@@ -12,6 +12,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   " Code editing
   Plug 'tpope/vim-commentary'
+  Plug 'kyazdani42/nvim-web-devicons'
+  Plug 'kyazdani42/nvim-tree.lua'
 
   "Syntax highlighting
   " We recommend updating the parsers on update
@@ -19,6 +21,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   " Intellisense
   Plug 'neovim/nvim-lspconfig'
+  Plug 'williamboman/nvim-lsp-installer'
 
   " Eye Candy
   Plug 'dracula/vim', { 'name': 'dracula' }

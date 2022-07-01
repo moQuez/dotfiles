@@ -25,10 +25,10 @@ source $HOME/.config/nvim/plugins/init.vim
 source $HOME/.config/nvim/plugins/nvim-tree/config.vim
 
 " Lua based config
-luafile $HOME/.config/nvim/lua/lsp/javascript-ls.lua
-luafile $HOME/.config/nvim/lua/lsp/vim-ls.lua
+luafile $HOME/.config/nvim/lua/lsp/config.lua
 luafile $HOME/.config/nvim/lua/_gitsigns/config.lua
 luafile $HOME/.config/nvim/lua/treesitter/config.lua
+luafile $HOME/.config/nvim/lua/_nvim-tree/config.lua
 
 " Eye Candy
 syntax enable
