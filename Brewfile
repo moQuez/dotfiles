@@ -1,4 +1,5 @@
 brew "stow"
+brew "bat"
 brew "tmux"
 tap "homebrew/cask-fonts"
 cask "font-ubuntu-mono-nerd-font"
