@@ -25,7 +25,11 @@ export VIMCONFIG="$XDG_CONFIG_HOME/nvim"
 #node
 export NVM_DIR="$HOME/.nvm"
 
+# volta
+export VOLTA_HOME="$HOME/.volta"
+
 #########################
 # PATH
 #########################
 
+export PATH="$VOLTA_HOME/bin:$PATH"
