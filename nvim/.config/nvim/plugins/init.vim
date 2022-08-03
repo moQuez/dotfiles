@@ -18,6 +18,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   "Syntax highlighting
   " We recommend updating the parsers on update
   Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
+  Plug 'maxmellon/vim-jsx-pretty'
+
 
   " Intellisense
   Plug 'neovim/nvim-lspconfig'
@@ -25,6 +27,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   " Eye Candy
   Plug 'dracula/vim', { 'name': 'dracula' }
+  Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 
   " Navigation
   Plug 'kyazdani42/nvim-web-devicons' 
