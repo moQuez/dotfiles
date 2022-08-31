@@ -8,12 +8,12 @@ env:
 scrolling:
   history: 0
 
-selection: 
+selection:
   save_to_clipboard: true
 
 #Start with tmux, always attaching to main first
 shell:
-  program: /opt/homebrew/bin/tmux
+  program: /usr/local/bin/tmux
   args:
     - new-session
     - -A

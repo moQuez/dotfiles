@@ -32,4 +32,8 @@ source $ZDOTDIR/completion.zsh
 source $ZDOTDIR/prompt.zsh
 
 # and let Brew take care of the rest
-eval "$(/opt/homebrew/bin/brew shellenv)"
+eval "$(/usr/local/bin/brew shellenv)"
+
+# also load rbenv
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
