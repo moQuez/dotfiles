@@ -1,0 +1,11 @@
+# /Users/moquez/.config/tmuxinator/endurance-mate.yml
+
+name: "endurance-mate"
+root: ~/Development/endurance-mate
+
+windows:
+  - "\ue21e code": nvim
+  - "\ue702 git": lazygit
+  - "\ueba2 console": ./bin/rails console
+  - "\uf233 server": ./bin/dev
+  - "\uf120 cli": clear

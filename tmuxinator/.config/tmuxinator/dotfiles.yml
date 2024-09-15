@@ -1,0 +1,11 @@
+# /Users/moquez/.config/tmuxinator/dotfiles.yml
+
+name: "dotfiles"
+root: ~/Development/dotfiles
+
+windows:
+  - "\uf36f neovim": nvim ~/.config/nvim/init.lua
+  - "\uebc8 tmux": nvim ./tmux/.tmux.conf
+  - "\uf120 kitty": nvim ./kitty/.config/kitty/kitty.conf
+  - "\ue691 zsh": nvim ./zsh/
+  - "\ue702 git": lazygit

@@ -1,0 +1,10 @@
+# /Users/moquez/.config/tmuxinator/dotcom.yml
+
+name: "dotcom"
+root: ~/Development/dotcom
+
+windows:
+  - "\ueac4 code": nvim
+  - "\ue702 git": lazygit
+  - "\uf233 server": bun start
+  - "\uf120 cli": clear
